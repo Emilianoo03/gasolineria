@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gasolineria</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" target="_blank">
+        <div class="header">
+          <h1>Gasolineria</h1>
+        </div>
+        <div class="content">
+          <select id="tipoNft">
+            <option value="" disabled selected>Seleccione un tipo de nafta </option>
+            <option value="56">Nafta Super 95</option>
+            <option value="58">Nafta Premium 97</option>
+            <option value="56"> Gasoil 10-S</option>
+            <option value="37"> Gasoil 50-S</option>
+          </select>
+          <input
+            type="number"
+            name="Km"
+            id="CantKm"
+            placeholder="Km a recorrer"
+          />
+          <input
+            type="number"
+            name="Km/l"
+            id="KmL"
+            placeholder="Km/l (consumo)"
+          />
+
+          <input
+            type="button"
+            value="Consultar"
+            id="sumanft"
+          />
+          <p id="resultado"></p>
+        </div>
+        <div id="footer-c">
+          <img src="img/auto-bckg.png" alt="Auto" />
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- 
+  Aprovechando nuestro gran talento 
+  con la informática, un familiar, 
+  que suele recorrer distancias largas en su camioneta,
+ les pide hacer una página web que le calcule cuánta 
+ nafta le tiene que poner a su camioneta y 
+ cuánto le va a costar el viaje.
+ El dato que nos comenta nuestro familiar 
+ es que su camioneta rinde 12 km/l, es decir, 
+ que cada 12 kilómetros consume un litro de nafta (Súper 95) 
+ y la cantidad de kilometros que va a recorrer diariamente
+ es 250km
+-->
