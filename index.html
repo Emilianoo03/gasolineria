@@ -15,10 +15,10 @@
         </div>
         <div class="content">
           <select id="tipoNft">
-            <option value="" disabled selected>Seleccione un tipo de nafta </option>
+            <option value="1" disabled selected>Seleccione un tipo de nafta </option>
             <option value="56">Nafta Super 95</option>
             <option value="58">Nafta Premium 97</option>
-            <option value="56"> Gasoil 10-S</option>
+            <option value="56,86"> Gasoil 10-S</option>
             <option value="37"> Gasoil 50-S</option>
           </select>
           <input
@@ -26,12 +26,14 @@
             name="Km"
             id="CantKm"
             placeholder="Km a recorrer"
+            required
           />
           <input
             type="number"
             name="Km/l"
             id="KmL"
             placeholder="Km/l (consumo)"
+            required
           />
 
           <input
